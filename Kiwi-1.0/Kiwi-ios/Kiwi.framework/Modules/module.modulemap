@@ -1,0 +1,11 @@
+framework module Kiwi {
+  umbrella header "Kiwi.h"
+  
+  export *
+  module * { export * }
+  
+  link framework "Foundation"
+  link framework "CFNetwork"
+  link framework "Network"
+  link "libc++"
+}
